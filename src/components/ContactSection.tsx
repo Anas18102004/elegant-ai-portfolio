@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const links = [
   { icon: Mail, label: "Email", href: "mailto:anas@example.com" },
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
+  { icon: Phone, label: "Call", href: "tel:+916351478230" },
+  { icon: Github, label: "GitHub", href: "https://github.com/Anas18102004" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/mohammad-anas-africawala/" },
 ];
 
 const ContactSection = () => {
